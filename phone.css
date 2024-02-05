@@ -1,0 +1,105 @@
+
+.logo img{
+    margin-top: 10px;
+    height: 32px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 10px; /*Adjusted top position for smaller screens*/
+    margin-left: 60px;
+    width: 100%;
+    background-color: #fff;
+    flex-flow: column nowrap;
+    /* display: n1one; */
+}
+
+.nav-bar.show {
+    display: flex;
+}
+
+.nav-bar a {
+    border: solid #000 1px;
+    border-radius: 15%;
+    margin: 10px 5px;
+    padding: 5px 1px;
+    margin-right: 1px;
+}
+
+.menu-icon {
+    display: block;
+    cursor: pointer;
+}
+
+.btn{
+    display: none;
+}
+
+.home{
+    /* margin-bottom: -200px; */
+}
+
+.home-content{
+    margin-top: -100px;
+}
+
+.home img{
+    width: 241px;
+    height: 247px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.home .shop-btn{
+    margin-left: 0px;
+}
+
+.home-2{
+    background-position: center;
+    margin-top: 0px;
+}
+
+.home2-content{
+    margin-top: 100px;
+}
+
+.home2-content h2{
+    padding: 0px 0px 5px;
+}
+
+.home2-content p{
+    margin-right: 35px;
+}
+
+.home2-content .shop-btn{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.home3-content{
+    margin-top: 200px;
+}
+
+.home3-content h2{
+   margin-left: 0px;
+   font-weight: 600;
+}
+
+.home3-content .shop-btn{
+    margin-right: -100px;
+}
+
+.home4-content{
+    margin-top: 100px;
+}
+
+.home4-content img{
+    width: 341px;
+    height: 347px;
+    margin-left: -20px;
+    margin-top: 0px;
+}
